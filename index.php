@@ -83,7 +83,7 @@
 <!--Bắt đầu phần nội dung-->
 <div class="main_contain">
     <div class="container">
-        <div class="row">
+        <div class="row album-list">
             <div class="col-lg-4 fm1">
                 <img class="rounded-circle" src="image/pic.jpg" alt="Generic placeholder image" width="140" height="140">
                 <h2>Heading</h2>
