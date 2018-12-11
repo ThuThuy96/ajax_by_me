@@ -1,0 +1,55 @@
+.navbar-nav .nav-link{
+    margin: 5px;
+    padding: 5px;
+
+}
+.navbar-brand{
+    font-size:30px ;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    text-shadow: 2px 2px 5px red;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+}
+
+.navbar-nav {
+    text-decoration: none;
+    padding-top: 50px;
+    list-style: none;
+    font-size:15px ;
+   float: left;
+}
+.nav-link:hover{
+    color: red;
+
+}
+.form-inline{
+    padding-left: 200px;
+    display: inline-block;
+    padding-top: 40px;
+    font-size:20px ;
+}
+
+/*Bắt đầu css main*/
+.fm1{
+padding-top: 20px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.rounded-circle{
+    border-radius: 100% !important;
+}
